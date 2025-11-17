@@ -10,7 +10,7 @@ import { User } from './auth/entity/user.entity';
       host: 'localhost',
       port: 5432,
       username: 'postgres',
-      password: 'yourpassword',
+      password: '123',
       database: 'notes_app',
       entities: [User],
       synchronize: true,
